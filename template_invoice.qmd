@@ -1,0 +1,31 @@
+---
+name: Hans Muster
+address: Rue Centrale
+number: 1
+zip: 1111
+toplace: Perpette-les-Oies
+country: CH
+
+date: "2022-08-22"
+fac-message: "Sponsoring"
+fac-amount: 200
+
+author: "Club Équestre St-Georges"
+place: "Cheseaux"
+
+return-url: "https://www.club-st-georges.ch"
+return-address: 
+  - "Ch. du Manège 2"
+  - "CH-1033 Cheseaux"
+
+subject: Facture sponsoring
+opening: Monsieur,
+closing: |
+         | Avec mes meilleures salutations,
+         | Alain Charbonnier
+
+format: csg-invoice-pdf
+---
+
+Exemple de facture
+

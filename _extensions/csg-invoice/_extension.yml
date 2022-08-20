@@ -1,0 +1,46 @@
+title: Club St-Georges Letter
+author: Pascal Burkhard
+version: 1.0.0
+contributes:
+  format:
+    pdf:
+      format-resources:
+        - ../resources/lco/swiss.lco
+      template-partials:
+        - title.tex
+        - before-body.tex
+        - after-body.tex
+      include-in-header: 
+        - ../resources/tex/datetime-header.tex
+        - ../resources/tex/qrbill-header.tex
+      logo: ../resources/img/club-st-georges.jpg
+      logo-size: "width=4cm"
+      documentclass: scrlttr2
+      papersize: a4
+      classoption:
+        - "swiss"
+        - "french"
+      colorlinks: false
+      lang: fr-CH
+      geometry:
+        - left=2cm
+        - right=2cm
+      mainfont: FiraSans
+      mainfontoptions:
+        - Extension = .otf
+        - UprightFont = *-Light
+        - ItalicFont = *-LightItalic
+        - BoldFont = *-Regular
+        - BoldItalicFont = *-Italic
+      sansfont: FiraSans
+      sansfontoptions:
+        - Extension = .otf
+        - UprightFont = *-Light
+        - ItalicFont = *-LightItalic
+        - BoldFont = *-Regular
+        - BoldItalicFont = *-Italic
+      mathfont: FiraMath-Light
+      mathfontoptions:
+        - Path = /Library/Fonts/
+        - Extension = .otf
+      
