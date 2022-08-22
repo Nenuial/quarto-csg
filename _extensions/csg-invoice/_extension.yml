@@ -5,15 +5,15 @@ contributes:
   format:
     pdf:
       format-resources:
-        - ../resources/lco/swiss.lco
+        - swiss.lco
       template-partials:
         - title.tex
         - before-body.tex
         - after-body.tex
       include-in-header: 
-        - ../resources/tex/datetime-header.tex
-        - ../resources/tex/qrbill-header.tex
-      logo: ../resources/img/club-st-georges.jpg
+        - datetime-header.tex
+        - qrbill-header.tex
+      logo: club-st-georges.jpg
       logo-size: "width=4cm"
       documentclass: scrlttr2
       papersize: a4
