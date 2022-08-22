@@ -37,5 +37,5 @@ $if(return-short)$
 \setkomavar{backaddress}{$for(return-short)$$return-short$$sep$\\$endfor$}
 $endif$
 
-\begin{letter}{$name$\\ $address$ $number$\\ $country$-$zip$ $toplace$\\}
+\begin{letter}{$name$$if(toadditional)$\\$toadditional$$endif$\\ $address$ $number$\\ $country$-$zip$ $toplace$\\}
 $if(opening)$\opening{$opening$}$else$\opening{}$endif$
